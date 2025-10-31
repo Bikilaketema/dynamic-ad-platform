@@ -1,0 +1,87 @@
+# ===================================================================
+# Python / FastAPI
+# ===================================================================
+
+# 1. Virtual Environment
+# Ignore the virtual environment folder
+venv/
+
+# 2. Bytecode and Caches
+# Ignore compiled Python files and cache folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. Distribution / Build
+# Ignore packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 4. Environment Variables
+# IGNORE ALL .env files! These contain secret keys.
+.env
+*.env
+
+
+# ===================================================================
+# Node.js / React / Next.js / Fabric.js
+# ===================================================================
+
+# 1. Dependencies
+# This is the most important one for Node.js
+node_modules/
+
+# 2. Build Output
+# Ignore the production build folder (from React or Next.js)
+build/
+.next/
+
+# 3. Logs
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 4. Environment Variables
+# IGNORE ALL local env files!
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# 5. Lock file (optional, but good practice for solo/hackathon)
+# package-lock.json
+
+
+# ===================================================================
+# Project-Specific (Your App)
+# ===================================================================
+
+# 1. User Uploads
+# Ignore the folder where users upload their logos/videos
+/uploads/
+
+# 2. Final Renders
+# Ignore the folder where your FFmpeg/AI creates the final videos
+/renders/
+
+
+# ===================================================================
+# Common OS / Editor Files (Good Practice)
+# ===================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/

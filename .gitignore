@@ -63,6 +63,7 @@ yarn-error.log*
 # 1. User Uploads
 # Ignore the folder where users upload their logos/videos
 /uploads/
+/static/
 
 # 2. Final Renders
 # Ignore the folder where your FFmpeg/AI creates the final videos
